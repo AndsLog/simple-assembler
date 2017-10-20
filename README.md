@@ -36,10 +36,8 @@
 Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 
 > e.g.
-
->> STL -> 14
-
->> LDA -> 00
+>- STL -> 14
+>- LDA -> 00
 
 ![PNG](img/pass1.PNG)
 
@@ -58,9 +56,7 @@ Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic address)轉換成機器內部的表示法方式或記憶地址。
 
 > e.g. 
-
->> 5 -> 0000 0000 0000 0000 0000 0101 0000 0000 0000 0000 0000 0101
-
->> RETADR －＞1033H
+>- 5 -> 0000 0000 0000 0000 0000 0101 0000 0000 0000 0000 0000 0101
+>- RETADR －＞1033H
 
 
