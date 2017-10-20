@@ -14,8 +14,6 @@
 
 要將下列SIC組合語言，轉換成機器碼(machine code)
 
-完整的程式碼[Here](test.txt)
-
     . comment
       . indexed addressing
     .. free format coding
@@ -31,7 +29,7 @@
     .
     .
 
-
+完整的程式碼[Here](test.txt)
 
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
