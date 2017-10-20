@@ -51,7 +51,6 @@ Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
     12: 100c 30 ENDFIL
     13: 100f 48 WRREC
     14: 1012 3C CLOOP
-     
 
 Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic address)轉換成機器內部的表示法方式或記憶地址。
 
