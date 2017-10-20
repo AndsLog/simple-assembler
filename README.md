@@ -13,22 +13,19 @@
 
 要將下列SIC組合語言，轉換成機器碼(machine code)
 
-    . comment
-      . indexed addressing
-    .. free format coding
-    . empty line detection
-    . . comand line user filenames input
-
-    COPY START 1000		. program start here
-    FIRST STL RETADR
-    CLOOP JSUB RDREC
-    LDA  LENGTH
-    COMP ZERO
-    JEQ ENDFIL
-    JSUB 	WRREC
-    .
-    .
-    .
+    . comment
+      . indexed addressing
+    .. free format coding
+    . empty line detection
+    . . comand line user filenames input
+    
+    COPY START 1000		. program start here
+    FIRST STL RETADR
+    CLOOP JSUB RDREC
+    LDA  LENGTH
+    .
+    .
+    .
 
 
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
