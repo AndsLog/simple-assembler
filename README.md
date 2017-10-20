@@ -1,4 +1,4 @@
-# simple-assembler
+## simple-assembler
 
 系統程式期末報告的成品
 
@@ -27,9 +27,7 @@
     .
     .
 
-
-
-完整的程式碼[Here](test.txt)
+#完整的程式碼[Here](test.txt)
 
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
