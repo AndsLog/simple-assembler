@@ -36,8 +36,11 @@
 Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 
 > e.g.
+
 >> STL -> 14
+
 >> LDA -> 00
+
 ![PNG](img/pass1.PNG)
 
 輸出的檔案
