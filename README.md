@@ -9,10 +9,27 @@
 以下為SIC組合語言的範例：
 ![GIF](img/sp01.gif)
 
-
 這支程式是由JAVA所寫成
 
 要將下列SIC組合語言，轉換成機器碼(machine code)
+
+    . comment
+      . indexed addressing
+    .. free format coding
+    . empty line detection
+    . . comand line user filenames input
+
+    COPY START 1000		. program start here
+    FIRST STL RETADR
+    CLOOP JSUB RDREC
+    LDA  LENGTH
+    COMP ZERO
+    JEQ ENDFIL
+    JSUB 	WRREC
+    .
+    .
+    .
+
 
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
