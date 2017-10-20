@@ -7,11 +7,14 @@
 此次成品是Beck所著的系統程式教科書中SIC機器的組譯器
   
 以下為SIC組合語言的範例：
+
 ![GIF](img/sp01.gif)
 
 這支程式是由JAVA所寫成
 
 要將下列SIC組合語言，轉換成機器碼(machine code)
+
+完整的程式碼[Here](test.txt)
 
     . comment
       . indexed addressing
@@ -26,7 +29,8 @@
     .
     .
     .
-# 完整的程式碼[Here](test.txt)
+
+
 
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
