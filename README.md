@@ -12,22 +12,22 @@
 
 要將下列SIC組合語言，轉換成機器碼(machine code)
 
-    . comment
-      . indexed addressing
-    .. free format coding
-    . empty line detection
-    . . comand line user filenames input
-    
-    COPY START 1000		. program start here
-    FIRST STL RETADR
-    CLOOP JSUB RDREC
-    LDA  LENGTH
-    COMP ZERO
-    JEQ ENDFIL
-    JSUB 	WRREC
-    J CLOOP
-    .
-    .
+        . comment
+          . indexed addressing
+        .. free format coding
+        . empty line detection
+        . . comand line user filenames input
+        
+        COPY START 1000		. program start here
+        FIRST STL RETADR
+        CLOOP JSUB RDREC
+        LDA  LENGTH
+        COMP ZERO
+        JEQ ENDFIL
+        JSUB 	WRREC
+        J CLOOP
+        .
+        .
 
 完整的程式碼[Here](test.txt)
 ***
@@ -58,4 +58,15 @@ Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic addr
 >- 5 -> 0000 0000 0000 0000 0000 0101 0000 0000 0000 0000 0000 0101
 >- RETADR －＞1033H
 
+![PNG](img/pass2.PNG)
+
+輸出的檔案
+
+        H00COPY  1000 107a
+        T 001000 1E 1410334820390010362810303010154820613C100300102a0C103900102d
+        T 00101e 15 0C10364820610810334C0000454f46000003000000
+        T 002039 1E 041030001030E0205d30203fD8205d2810303020575490392C205e38203f
+        T 002057 1C 1010364C0000F1001000041030E02079302064509039DC20792C1036
+        T 002073 07 3820644C000005
+        E001000
 
