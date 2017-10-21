@@ -31,13 +31,15 @@
 
 完整版[Here](test.txt)
 ***
-以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
+以下是程式的流程圖及Output，分為Pass 1及Pass 2
 
 # Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 
 > e.g.
 >- STL -> 14
 >- LDA -> 00
+
+流程圖
 
 ![PNG](img/pass1.PNG)
 
@@ -59,6 +61,8 @@ Output
 > e.g. 
 >- 5 -> 0000 0000 0000 0000 0000 0101 0000 0000 0000 0000 0000 0101
 >- RETADR －＞1033H
+
+流程圖
 
 ![PNG](img/pass2.PNG)
 
