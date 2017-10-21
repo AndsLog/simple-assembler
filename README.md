@@ -1,4 +1,4 @@
-## simple-assembler
+### simple-assembler
 
 > 組譯器(assembler)，是將組合語言轉換成機器碼(machine code)的程式
 
@@ -33,7 +33,7 @@
 ***
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
-Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
+# Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 
 > e.g.
 >- STL -> 14
@@ -54,7 +54,7 @@ Pass 1：將助記碼(mnemonic code)轉換成機器碼(machine code)。
 
 完整的程式碼[Here](out.txt)
 
-Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic address)轉換成機器內部的表示法方式或記憶地址。
+# Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic address)轉換成機器內部的表示法方式或記憶地址。
 
 > e.g. 
 >- 5 -> 0000 0000 0000 0000 0000 0101 0000 0000 0000 0000 0000 0101
