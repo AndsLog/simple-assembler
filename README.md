@@ -29,7 +29,7 @@
         .
         .
 
-完整的程式碼[Here](test.txt)
+完整版[Here](test.txt)
 ***
 以下是程式的流程圖及輸出的檔案，分為Pass 1及Pass 2
 
@@ -41,7 +41,7 @@
 
 ![PNG](img/pass1.PNG)
 
-輸出的檔案
+Output
 
         7: 1000 COPY START 1000
         8: 1000 FIRST 14 RETADR
@@ -52,7 +52,7 @@
         13: 100f 48 WRREC
         14: 1012 3C CLOOP
 
-完整的程式碼[Here](out.txt)
+完整版[Here](out.txt)
 
 # Pass 2：將符號式運算元(Symbolic operand)或符號式地址(Symbolic address)轉換成機器內部的表示法方式或記憶地址。
 
@@ -62,7 +62,7 @@
 
 ![PNG](img/pass2.PNG)
 
-輸出的檔案
+Output
 
         H00COPY  1000 107a
         T 001000 1E 1410334820390010362810303010154820613C100300102a0C103900102d
@@ -72,3 +72,4 @@
         T 002073 07 3820644C000005
         E001000
 
+經由Pass2處理過後的格式就是完整的機器碼(machine code)
